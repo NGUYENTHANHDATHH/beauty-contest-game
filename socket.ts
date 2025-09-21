@@ -2,5 +2,5 @@
 // The io object is globally available from the script tag in index.html.
 // Replace the URL with your actual server address if it's not running on localhost.
 // Make sure the server is running on port 3001 or change the port here.
-const SERVER_URL = "http://localhost:3001";
+const SERVER_URL = "https://api.render.com/deploy/srv-d37nm6er433s73etcchg?key=PM5ik5LZJf4";
 export const socket = io(SERVER_URL);
