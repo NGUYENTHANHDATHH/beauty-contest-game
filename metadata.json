@@ -1,0 +1,5 @@
+{
+  "name": "Beauty Contest Game",
+  "description": "A real-time strategy game based on number theory and psychology. Players choose a number between 0 and 100, and the winner is the one closest to 80% of the group's average. With each player elimination, a new rule is added, increasing the complexity. The last player standing wins.",
+  "requestFramePermissions": []
+}
