@@ -1,0 +1,5 @@
+{
+  "name": "King of Diamonds",
+  "description": "A high-stakes psychological game of numbers and strategy based on 'Alice in Borderland'. Players choose a number from 0-100, and the one closest to 0.8 times the average wins the round. Rules evolve as players are eliminated, demanding new tactics to survive.",
+  "requestFramePermissions": []
+}

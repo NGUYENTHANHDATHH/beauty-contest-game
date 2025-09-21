@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>King of Diamonds</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'kod-bg': '#1a1a1a',
+              'kod-gray': '#2c2c2c',
+              'kod-light-gray': '#444444',
+              'kod-text': '#e0e0e0',
+              'kod-cyan': '#00f0ff',
+              'kod-red': '#ff3d3d',
+              'kod-green': '#3dff8a',
+            },
+            fontFamily: {
+              'sans': ['ui-sans-serif', 'system-ui'],
+              'mono': ['ui-monospace', 'SFMono-Regular'],
+            },
+            boxShadow: {
+              'cyan-glow': '0 0 15px rgba(0, 240, 255, 0.6)',
+              'red-glow': '0 0 15px rgba(255, 61, 61, 0.6)',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "socket.io-client": "https://cdn.socket.io/4.7.5/socket.io.esm.min.js",
+    "express": "https://aistudiocdn.com/express@^5.1.0",
+    "http": "https://aistudiocdn.com/http@^0.0.1-security",
+    "socket.io": "https://aistudiocdn.com/socket.io@^4.8.1",
+    "cors": "https://aistudiocdn.com/cors@^2.8.5"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-kod-bg text-kod-text">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
